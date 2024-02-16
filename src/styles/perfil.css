@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+.App{
+    background-color: #40A2E3;
+    display: block;
+}
+
+.contenedor-principal{
+    width: auto;
+    height: 690px;
+    display: flex;
+    align-items: stretch;
+    background-color: #40A2E3;
+
+}
+
+.title{
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+    text-shadow: 1px 1px #FFF6E9;
+    background-color: #40A2E3;
+    margin: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.contenedor-perfil{
+    width: 460px;
+    height: 450px;
+    flex-direction: column;
+    background-color: #BBE2EC;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px #0D9276;
+    margin: 50px 10px 0px 10px;
+
+}
+
+.imagen-perfil{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+
+.pais-perfil{
+    font-size: 1rem;
+
+}
+
+.contenedor-txt-perfil{
+    text-align: center;
+    font-family: "Kode Mono", monospace;
+}
+
+.pais-perfil{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cargo-perfil{
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+}
+
+.descripcion-perfil{
+    font-size: medium;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px 10px 0px 10px;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/perfil.css';
+import Contador from './Contador';
+
 
 function Perfil(props){
   return(
@@ -19,6 +21,32 @@ function Perfil(props){
           <p className='descripcion-perfil'>
             {props.descripcion}
           </p>
+        </div>
+        <div>
+          <div className='botones'>
+            {/*botones redes sociales */}
+            <div className='youtube' onClick={() => window.open(props.youtube, '_blank')}>
+              <Contador onClick={() => window.open(props.youtube, '_blank')}>
+                <img className='logo' 
+                src={require(`../images/youtube.png`)}
+                alt='log'/>
+              </Contador>  
+            </div>
+            <div className='linkedin' onClick={() => window.open(props.linkedin, '_blank')}>
+              <Contador onClick={() => window.open(props.linkedin, '_blank')}>
+                <img className='logo' 
+                src={require(`../images/linkedin.png`)}
+                alt='log'/> 
+              </Contador>    
+            </div>
+            <div className='twitter' onClick={() => window.open(props.twitter, '_blank')}>
+              <Contador onClick={() => window.open(props.twitter, '_blank')}>
+                <img className='logo' 
+                src={require(`../images/twitter.png`)}
+                alt='log'/>
+              </Contador>  
+            </div>
+          </div>
         </div>
 
       </div>

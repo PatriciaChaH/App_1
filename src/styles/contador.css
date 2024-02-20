@@ -1,0 +1,13 @@
+.botonredes{
+    border-radius: 70px;
+    border-color: transparent;
+    background-color: #BBE2EC;
+    font-size: x-small;
+    font-weight: bold;
+}
+
+.botonredes:hover{
+    cursor: pointer;
+    transform:scale(1.15);
+    box-shadow: 1px 1px #0D9276;
+}

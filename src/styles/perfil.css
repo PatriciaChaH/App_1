@@ -10,6 +10,7 @@
     height: 690px;
     display: flex;
     align-items: stretch;
+    justify-content: center;
     background-color: #40A2E3;
 
 }
